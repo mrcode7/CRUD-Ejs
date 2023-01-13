@@ -1,4 +1,4 @@
-# CRUD-Ejs
+# JAVASCRIPT BOOTSTRAP MYSQL
 
 koneksi database menggunakan javascript sekaligus membuat server.
 
