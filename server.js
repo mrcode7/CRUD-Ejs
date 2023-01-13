@@ -25,7 +25,7 @@ db.connect((err) => {
     const sql = "SELECT * FROM user";
     db.query(sql, (err, result) => {
       const users = JSON.parse(JSON.stringify(result));
-      res.render("index", { users: users, title: "Data Mahasiswa" });
+      res.render("index", { users: users, title: "Data Siswa" });
     });
   });
 
